@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form List DP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="./css/styleViewProdukVendor.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- header //-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<!-- end header //-->
+
+<div class="container-fluid text-center">    
+    <div class="row content">
+        <!-- left //-->
+        <div class="col-sm-2 sidenav">
+            <p><a href="#" class="btn btn-primary btn-block" role="button">Form List DP</a></p>
+        </div>
+        <!-- Middle expand //-->
+        <div class="col-sm-10 text-left">
+            <h2>Form List DP</h2>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <p>Form Tambahkan Down Payment :</p>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="sel1">Besar DP (%) :</label>
+                            <select class="form-control" style="display:inline-block; width: 10%;" id="sel1">
+                                <option value="">Pilih DP</option>
+                                <option>10%</option>
+                                <option>20%</option>
+                                <option>30%</option>
+                                <option>50%</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Keterangan :</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="form-group pull-right">
+                            <input type="button" class="btn btn-info" value="Batal">
+                            <input type="submit" class="btn btn-info" value="Simpan">
+                        </div>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid text-center">
+    <p>Copyright &copy; 2018 by IndoAgri</p>
+</footer>    
+</body>
+</html>

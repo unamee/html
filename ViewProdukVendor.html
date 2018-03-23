@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>View Produk Vendor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="./css/styleViewProdukVendor.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- header //-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <!-- left //-->
+    <div class="col-sm-2 sidenav">
+      <p><a href="#" class="btn btn-primary btn-block" role="button">Nama Produk</a></p>
+      <p><a href="#" class="btn btn-primary btn-block" role="button">Brand</a></p>
+      <p><a href="#" class="btn btn-primary btn-block" role="button">Kategori</a></p>
+      <p><a href="#" class="btn btn-primary btn-block" role="button">Harga (Min)</a></p>
+      <p><a href="#" class="btn btn-primary btn-block" role="button">Harga (Max)</a></p>
+    </div>
+    <!-- Middle expand //-->
+    <div class="col-sm-10 text-left">
+      <div class="row">
+        <div class="col-sm-6"><h2>PT. Inokom</h2></div>
+        <div class="col-sm-6"><span class="pull-right" style="margin-top: 20px"><a href="#" class="btn btn-info" role="button">Add</a></span></div>
+      </div>
+      <hr>
+      <!-- product loop //-->
+      <div class="row baris" style="position: relative;">
+        <div class="col-sm-4"><img src="./img/pc001.jpg" class="thumbnail" alt="Razer 8750" width="304" height="236"> </div>
+        <div class="col-sm-7">
+          <table>
+            <tbody>
+              <tr><td>Group</td><td>:</td><td>IT, Hardware, Komputer</td></tr>
+              <tr><td>Nama Produk</td><td>:</td><td>Komputer Razer</td></tr>
+              <tr><td>Harga</td><td>:</td><td>Rp. 12.750.000</td></tr>
+              <tr><td>Berlaku Sampai</td><td>:</td><td>31 December 2019</td></tr>
+              <tr><td>Type</td><td>:</td><td>Razer 8750</td></tr>
+              <tr><td>Status</td><td>:</td><td>Disetujui</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-1" style="position: absolute; bottom: 0;right:0;">               
+          <a href="#"><i class="fas fa-pencil-alt" style="font-size: 2em"></i></a>
+          &nbsp;
+          <a href="#"><i class="far far fa-trash-alt" style="font-size: 2em"></i></a>
+         </div>
+      </div>
+      
+      <div class="row baris" style="position: relative; background-color: #f9f9f9">
+        <div class="col-sm-4"><img src="./img/karton001.jpg" class="thumbnail" alt="Karton 8750" width="304" height="236"> </div>
+        <div class="col-sm-7">
+          <table>
+            <tbody>
+              <tr><td>Group</td><td>:</td><td>Packaging, Kaleng</td></tr>
+              <tr><td>Nama Produk</td><td>:</td><td>Karton</td></tr>
+              <tr><td>Harga</td><td>:</td><td>Rp. 12.750</td></tr>
+              <tr><td>Berlaku Sampai</td><td>:</td><td>31 December 2019</td></tr>
+              <tr><td>Type</td><td>:</td><td>Karton 8750</td></tr>
+              <tr><td>Status</td><td>:</td><td>Disetujui</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-1" style="position: absolute;bottom: 0;right:0;">               
+              <a href="#"><i class="fas fa-pencil-alt" style="font-size: 2em"></i></a>
+              &nbsp;
+              <a href="#"><i class="far far fa-trash-alt" style="font-size: 2em"></i></a>
+          </div>
+      </div>
+
+      <div class="row baris" style="position: relative;">
+          <div class="col-sm-4"><img src="./img/storageTank001.jpg" class="thumbnail" alt="Storage Tank 8750" width="304" height="236"> </div>
+          <div class="col-sm-7">
+            <table>
+              <tbody>
+                <tr><td>Group</td><td>:</td><td>Machinery, Storage Tank</td></tr>
+                <tr><td>Nama Produk</td><td>:</td><td>Storage Tank</td></tr>
+                <tr><td>Harga</td><td>:</td><td>Rp. 1.012.000</td></tr>
+                <tr><td>Berlaku Sampai</td><td>:</td><td>31 December 2019</td></tr>
+                <tr><td>Type</td><td>:</td><td>Storage Tank 8750</td></tr>
+                <tr><td>Status</td><td>:</td><td>Disetujui</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-1" style="position: absolute;bottom: 0;right:0;">               
+                <a href="#"><i class="fas fa-pencil-alt" style="font-size: 2em"></i></a>
+                &nbsp;
+                <a href="#"><i class="far far fa-trash-alt" style="font-size: 2em"></i></a>
+            </div>
+        </div>
+        <!-- end product loop //-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
+      
+    </div>   
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p>Copyright &copy; 2018 by IndoAgri</p>
+</footer>
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementsByClassName('thumbnail');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    //img.onclick = function(){
+        // modal.style.display = "block";
+        // modalImg.src = this.src;
+        // captionText.innerHTML = this.alt;
+      //alert("test");
+      //   $('.modal-content').attr('src', $(this).find('img').attr('src'));
+			// $('#myModal').modal('show'); 
+    //}
+    $(function() {
+		$('.thumbnail').on('click', function() {
+       modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+		});		
+    });
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+    </script>
+</body>
+</html>

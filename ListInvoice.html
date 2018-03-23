@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>View List Invoice Vendor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="./css/styleViewProdukVendor.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+<!-- header //-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<!-- end header //-->
+
+<div class="container-fluid text-center">    
+    <div class="row content">
+        <!-- left //-->
+        <div class="col-sm-2 sidenav">
+            <p><a href="#" class="btn btn-primary btn-block" role="button">List Invoice</a></p>
+        </div>
+        <!-- Middle expand //-->
+        <div class="col-sm-10 text-left">
+            <h2>View List Invoice</h2>
+            <div class="row" style="padding: 20px">
+                <div class="table-responsive">
+                <table id="grid" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                        <th>No. Vendor <i class="fas fa-search pull-right"></i></th>
+                        <th>Nama Plan <i class="fas fa-search pull-right"></i></th>
+                        <th>Order Number <i class="fas fa-search pull-right"></i></th>
+                        <th>Nama Barang <i class="fas fa-search pull-right"></i></th>
+                        <th>GR Number <i class="fas fa-search pull-right"></i></th>
+                        <th>GR Date <i class="fas fa-search pull-right"></i></th>
+                        <th>Harga <i class="fas fa-search pull-right"></i></th>
+                        <th>Qty PO <i class="fas fa-search pull-right"></i></th>
+                        <th>Satuan <i class="fas fa-search pull-right"></i></th>
+                        <th>Sub Total <i class="fas fa-search pull-right"></i></th>
+                        <th>Status <i class="fas fa-search pull-right"></i></th>
+                        <th>Action <i class="fas fa-search pull-right"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>D1119</td>
+                            <td>Sungai Dua</td>
+                            <td>57678909890</td>
+                            <td>Laptop</td>
+                            <td>57678909890</td>
+                            <td>18.12.2018</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>1</td>
+                            <td>Unit</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>Not Completed</td>
+                            <td><a href="#" class="btn btn-primary" role="button">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>D1119</td>
+                            <td>Sungai Dua</td>
+                            <td>57678909890</td>
+                            <td>Laptop</td>
+                            <td>57678909890</td>
+                            <td>18.12.2018</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>1</td>
+                            <td>Unit</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>Not Completed</td>
+                            <td><a href="#" class="btn btn-primary" role="button">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>D1119</td>
+                            <td>Sungai Dua</td>
+                            <td>57678909890</td>
+                            <td>Laptop</td>
+                            <td>57678909890</td>
+                            <td>18.12.2018</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>1</td>
+                            <td>Unit</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>Not Completed</td>
+                            <td><a href="#" class="btn btn-primary" role="button">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>D1119</td>
+                            <td>Sungai Dua</td>
+                            <td>57678909890</td>
+                            <td>Laptop</td>
+                            <td>57678909890</td>
+                            <td>18.12.2018</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>1</td>
+                            <td>Unit</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>Not Completed</td>
+                            <td><a href="#" class="btn btn-primary" role="button">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>D1119</td>
+                            <td>Sungai Dua</td>
+                            <td>57678909890</td>
+                            <td>Laptop</td>
+                            <td>57678909890</td>
+                            <td>18.12.2018</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>1</td>
+                            <td>Unit</td>
+                            <td>Rp. 5.000.000</td>
+                            <td>Not Completed</td>
+                            <td><a href="#" class="btn btn-primary" role="button">View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+            <!-- pagination //-->
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+            <!-- end pagination //-->
+        </div>   
+    </div>
+  </div>
+  
+  <footer class="container-fluid text-center">
+    <p>Copyright &copy; 2018 by IndoAgri</p>
+  </footer>
+
+</body>
+</html>
